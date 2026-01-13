@@ -1,8 +1,8 @@
 spring:
   datasource:
-    username: ${USERNAME}
-    password: ${PASSWORD}"
-    url: ${URL}
+    username: "jobportal"
+    password: "jobportal"
+    url: "jdbc://localhost:/3306/jobportal"
   servlet:
     multipart:
       max-file-size: 3MB
