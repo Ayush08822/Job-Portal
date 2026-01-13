@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: ${USERNAME}
+    password: ${PASSWORD}"
+    url: ${URL}
+  servlet:
+    multipart:
+      max-file-size: 3MB
